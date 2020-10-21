@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+ <title>QUIZZO</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styles1.css">
+ </head>
+<body>
+<div class="container">
+   <header>
+
+   <div class="pull-left">JAVASCRIPT QUIZ</div>
+   <div class="pull-right">www.quiz.com</div>
+
+   </header>
+   <main>
+   <h2>EASY</h2>
+   <form class="Question-form" id="q1" data-question="1">
+
+      <ul>
+	  <h3>1.Inside which HTML element do we put the JavaScript?</h3>
+	    <li><input type="radio" name="q1" value="a">&lt;script&gt;</li>
+	    <li><input type="radio" name="q1" value="b">&lt;javascript&gt;</li>
+		<li><input type="radio" name="q1" value="c">&lt;head&gt;</li>
+		<li><input type="radio" name="q1" value="d">&lt;body&gt;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q2" data-question="2">
+
+      <ul>
+	  <h3>2.Where is the correct place to insert a JavaScript?</h3>
+	    <li><input type="radio" name="q2" value="a">The body section</li>
+	    <li><input type="radio" name="q2" value="b">The head section</li>
+		<li><input type="radio" name="q2" value="c">Both head and body section are correct</li>
+		<li><input type="radio" name="q2" value="d">Both head and body section are not correct</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+    <form class="Question-form" id="q3" data-question="3">
+
+      <ul>
+	  <h3>3.What is the correct syntax for referring to an external script called "xxx.js"?</h3>
+	    <li><input type="radio" name="q3" value="a">&lt;script src="xxx.js"&gt;</li>
+	    <li><input type="radio" name="q3" value="b">&lt;script href="xxx.js"&gt;</li>
+		<li><input type="radio" name="q3" value="c">&lt;script name="xxx.js"&gt;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+
+      <form class="Question-form" id="q4" data-question="4">
+
+      <ul>
+	  <h3>4.The external JavaScript file must contain the &lt;script&gt; tag.</h3>
+	    <li><input type="radio" name="q4" value="a">False</li>
+	    <li><input type="radio" name="q4" value="b">True</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q5" data-question="5">
+
+      <ul>
+	  <h3>5.How do you write "Hello World" in an alert box?</h3>
+	    <li><input type="radio" name="q5" value="a">msg("Hello-world");</li>
+	    <li><input type="radio" name="q5" value="b">msgBox("Hello world");</li>
+		<li><input type="radio" name="q5" value="c">alert("Hello world");</li>
+		<li><input type="radio" name="q5" value="d">alertBox("Hello world");</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+   <div id="results"></div>
+   </main>
+   <footer>
+   <div class="pull-left">Total: 5 Questions</div>
+
+   </footer>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jsquiz1.js"></script>
+</body>
+</html>

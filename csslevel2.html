@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+ <title>QUIZZO</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styles1.css">
+ </head>
+<body>
+<div class="container">
+   <header>
+
+   <div class="pull-left">CSS3 QUIZ</div>
+   <div class="pull-right">www.quiz.com</div>
+
+   </header>
+   <main>
+   <h2>MEDIUM</h2>
+   <form class="Question-form" id="q1" data-question="1">
+
+      <ul>
+	  <h3>1.Which CSS property is used to change the text color of an element?</h3>
+	    <li><input type="radio" name="q1" value="a">text-color</li>
+	    <li><input type="radio" name="q1" value="b">fgcolor</li>
+		<li><input type="radio" name="q1" value="c">color</li>
+		<li><input type="radio" name="q1" value="d">textColor</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q2" data-question="2">
+
+      <ul>
+	  <h3>2.Which CSS property controls the text size?</h3>
+	    <li><input type="radio" name="q2" value="a">text-size</li>
+	    <li><input type="radio" name="q2" value="b">text-style</li>
+		<li><input type="radio" name="q2" value="c">font-size</li>
+		<li><input type="radio" name="q2" value="d">font-style</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+    <form class="Question-form" id="q3" data-question="3">
+
+      <ul>
+	  <h3>3.How do you display hyperlinks without an underline?</h3>
+	    <li><input type="radio" name="q3" value="a">a{text-decoration:no-underline;}</li>
+	    <li><input type="radio" name="q3" value="b">a{text-decoration:none;}</li>
+		<li><input type="radio" name="q3" value="c">a{underline:none;}</li>
+		<li><input type="radio" name="q3" value="d">a{decoration:no-underline;}</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+
+      <form class="Question-form" id="q4" data-question="4">
+
+      <ul>
+	  <h3>4.How do you make each word in a text start with a capital letter?</h3>
+	    <li><input type="radio" name="q4" value="a">You cant do that with css</li>
+	    <li><input type="radio" name="q4" value="b">text-style:capitalize</li>
+		<li><input type="radio" name="q4" value="c">transform:capitalize</li>
+		<li><input type="radio" name="q4" value="d">text-transform:capitalize</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q5" data-question="5">
+
+      <ul>
+	  <h3>5.Which property is used to change the font of an element?</h3>
+	    <li><input type="radio" name="q5" value="a">font-family</li>
+	    <li><input type="radio" name="q5" value="b">font-style</li>
+		<li><input type="radio" name="q5" value="c">font-weight</li>
+		<li><input type="radio" name="q5" value="d">font-width</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+   <div id="results"></div>
+   </main>
+   <footer>
+   <div class="pull-left">Total: 5 Questions</div>
+
+   </footer>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/cssquiz2.js"></script>
+</body>
+</html>

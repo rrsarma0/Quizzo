@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+ <title>QUIZZO</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styles1.css">
+ </head>
+<body>
+<div class="container">
+   <header>
+
+   <div class="pull-left">HTML5 QUIZ</div>
+   <div class="pull-right">www.quiz.com</div>
+
+   </header>
+   <main>
+   <h2>MEDIUM</h2>
+   <form class="Question-form" id="q1" data-question="1">
+
+      <ul>
+	  <h3>1.Choose the correct HTML Tag to define important text</h3>
+	    <li><input type="radio" name="q1" value="a">&lt;i&gt;</li>
+	    <li><input type="radio" name="q1" value="b">&lt;strong&gt;</li>
+		<li><input type="radio" name="q1" value="c">&lt;b&gt;</li>
+		<li><input type="radio" name="q1" value="d">&lt;important&gt;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q2" data-question="2">
+
+      <ul>
+	  <h3>2.Choose the correct HTML Tag to define emphasized text</h3>
+	    <li><input type="radio" name="q2" value="a">&lt;i&gt;</li>
+	    <li><input type="radio" name="q2" value="b">&lt;b&gt;</li>
+		<li><input type="radio" name="q2" value="c">&lt;em&gt;</li>
+		<li><input type="radio" name="q2" value="d">&lt;br&gt;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+    <form class="Question-form" id="q3" data-question="3">
+
+      <ul>
+	  <h3>3.Which character is used to indicate an end tag?</h3>
+	    <li><input type="radio" name="q3" value="a">/</li>
+	    <li><input type="radio" name="q3" value="b">*</li>
+		<li><input type="radio" name="q3" value="c">&lt;</li>
+		<li><input type="radio" name="q3" value="d">^</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+
+      <form class="Question-form" id="q4" data-question="4">
+
+      <ul>
+	  <h3>4.Inline elements are normally displayed without starting a new line</h3>
+	    <li><input type="radio" name="q4" value="a">True</li>
+	    <li><input type="radio" name="q4" value="b">False</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q5" data-question="5">
+
+      <ul>
+	  <h3>5.How can u make a numbered list?</h3>
+	    <li><input type="radio" name="q5" value="a">&lt;list&gt;</li>
+	    <li><input type="radio" name="q5" value="b">&lt;dl&gt;</li>
+		<li><input type="radio" name="q5" value="c">&lt;ol&gt;</li>
+		<li><input type="radio" name="q5" value="d">&lt;ul&gt;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+   <div id="results"></div>
+   </main>
+   <footer>
+   <div class="pull-left">Total: 5 Questions</div>
+
+   </footer>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/quiz2.js"></script>
+</body>
+</html>

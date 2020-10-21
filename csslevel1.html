@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/styles1.css">
+    <title>Quizzo</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="pull-left">CSS3 QUIZ</div>
+        <div class="pull-right">www.quizzo.com</div>
+
+      </header>
+      <main>
+        <h2>Easy</h2>
+        <form class="Question-form" id = 'q1' data-question="1">
+          <ul>
+            <h3>1.What does CSS stand for?</h3>
+            <li><input type='radio' name='q1' value='a'>cascading style sheets</li>
+            <li><input type='radio' name='q1' value='b'>colorful style sheets</li>
+            <li><input type='radio' name='q1' value='c'>computer style sheets</li>
+            <li><input type="radio" name='q1' value='d'>creative style sheets</li>
+          </ul>
+          <input type="submit" value="submit">
+        </form>
+
+        <form class="Question-form" id = 'q2' data-question="2">
+          <ul>
+            <h3>2.What is the correct HTML for referring to an external style sheet?</h3>
+            <li><input type='radio' name='q2' value='a'><stylesheet>mystyle.css</stylesheet></li>
+            <li><input type='radio' name='q2' value='b'>&lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;</li>
+            <li><input type='radio' name='q2' value='c'>&lt;style src="mystyle.css"&gt;</li>
+            <li><input type="radio" name='q2' value='d'><styles>src="mystyle.css"</styles></li>
+          </ul>
+          <input type="submit" value="submit">
+        </form>
+
+        <form class="Question-form" id = 'q3' data-question="3">
+          <ul>
+            <h3>3.Which HTML tag is used to define an internal style sheet?</h3>
+            <li><input type='radio' name='q3' value='a'>&lt;style&gt;</li>
+            <li><input type='radio' name='q3' value='b'>&lt;script&gt</li>
+            <li><input type='radio' name='q3' value='c'>&lt;css&gt;</li>
+            <li><input type="radio" name='q3' value='d'>&lt;main&gt;</li>
+          </ul>
+          <input type="submit" value="submit">
+        </form>
+
+        <form class="Question-form" id = 'q4' data-question="4">
+          <ul>
+            <h3>4.Which HTML attribute is used to define inline styles?</h3>
+            <li><input type='radio' name='q4' value='a'>&lt;style&gt;</li>
+            <li><input type='radio' name='q4' value='b'>&lt;class&gt</li>
+            <li><input type='radio' name='q4' value='c'>&lt;styles&gt;</li>
+            <li><input type="radio" name='q4' value='d'>&lt;font&gt;</li>
+          </ul>
+          <input type="submit" value="submit">
+        </form>
+
+        <form class="Question-form" id = 'q5' data-question="5">
+          <ul>
+            <h3>5.Which property is used to change the background color?</h3>
+            <li><input type='radio' name='q5' value='a'>bgcolor</li>
+            <li><input type='radio' name='q5' value='b'>color</li>
+            <li><input type='radio' name='q5' value='c'>background-color</li>
+            <li><input type="radio" name='q5' value='d'>bg-color</li>
+          </ul>
+          <input type="submit" value="submit">
+        </form>
+		  <div id="results"></div>
+		</main>
+		<footer>
+		<div class="pull-left">Total: 5 Questions</div>
+		</footer>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/cssquiz1.js"></script>
+  </body>
+</html>

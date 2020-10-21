@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+ <title>QUIZZO</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styles1.css">
+ </head>
+<body>
+<div class="container">
+   <header>
+
+   <div class="pull-left">JAVASCRIPT QUIZ</div>
+   <div class="pull-right">www.quiz.com</div>
+
+   </header>
+   <main>
+   <h2>HARD</h2>
+   <form class="Question-form" id="q1" data-question="1">
+
+      <ul>
+	  <h3>1.How do you find the number with the highest value of x and y?</h3>
+	    <li><input type="radio" name="q1" value="a">Math.ceil(x,y)</li>
+	    <li><input type="radio" name="q1" value="b">Math.max(x,y)</li>
+		<li><input type="radio" name="q1" value="c">ceil(x,y)</li>
+		<li><input type="radio" name="q1" value="d">top(x,y)</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q2" data-question="2">
+
+      <ul>
+	  <h3>2.JavaScript is the same as Java.</h3>
+	    <li><input type="radio" name="q2" value="a">True</li>
+	    <li><input type="radio" name="q2" value="b">False</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+    <form class="Question-form" id="q3" data-question="3">
+
+      <ul>
+	  <h3>3.How can you detect the client's browser name?</h3>
+	    <li><input type="radio" name="q3" value="a">Navigator.appName</li>
+	    <li><input type="radio" name="q3" value="b">client.navName</li>
+		<li><input type="radio" name="q3" value="c">browser.name</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+
+      <form class="Question-form" id="q4" data-question="4">
+
+      <ul>
+	  <h3>4.Which event occurs when the user clicks on an HTML element?</h3>
+	    <li><input type="radio" name="q4" value="a">onchange</li>
+	    <li><input type="radio" name="q4" value="b">onmouseover</li>
+		<li><input type="radio" name="q4" value="c">onmouseclick</li>
+		<li><input type="radio" name="q4" value="d">onclick</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q5" data-question="5">
+
+      <ul>
+	  <h3>5.How do you declare a JavaScript variable?</h3>
+	    <li><input type="radio" name="q5" value="a">var carName</li>
+	    <li><input type="radio" name="q5" value="b">v carName</li>
+		<li><input type="radio" name="q5" value="c">variable carName</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+   <div id="results"></div>
+   </main>
+   <footer>
+   <div class="pull-left">Total: 5 Questions</div>
+
+   </footer>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jsquiz3.js"></script>
+</body>
+</html>

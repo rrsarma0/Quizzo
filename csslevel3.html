@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+ <title>QUIZZO</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styles1.css">
+ </head>
+<body>
+<div class="container">
+   <header>
+
+   <div class="pull-left">CSS3 QUIZ</div>
+   <div class="pull-right">www.quiz.com</div>
+
+   </header>
+   <main>
+   <h2>HARD</h2>
+   <form class="Question-form" id="q1" data-question="1">
+
+      <ul>
+	  <h3>1.How do you make the text bold?</h3>
+	    <li><input type="radio" name="q1" value="a">font:bold;</li>
+	    <li><input type="radio" name="q1" value="b">style:bold;</li>
+		<li><input type="radio" name="q1" value="c">font-weight:bold;</li>
+		<li><input type="radio" name="q1" value="d">font-size:bold;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q2" data-question="2">
+
+      <ul>
+	  <h3>2.Which property is used to change the left margin of an element?</h3>
+	    <li><input type="radio" name="q2" value="a">indent</li>
+	    <li><input type="radio" name="q2" value="b">padding-left</li>
+		<li><input type="radio" name="q2" value="c">margin-left</li>
+		<li><input type="radio" name="q2" value="d">margin:10px auto</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+    <form class="Question-form" id="q3" data-question="3">
+
+      <ul>
+	  <h3>3.When using the padding property; are you allowed to use negative values?</h3>
+	    <li><input type="radio" name="q3" value="a">Yes</li>
+	    <li><input type="radio" name="q3" value="b">No</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+
+      <form class="Question-form" id="q4" data-question="4">
+
+      <ul>
+	  <h3>4.How do you make a list that lists its items with squares?</h3>
+	    <li><input type="radio" name="q4" value="a">list-style-type:square;</li>
+	    <li><input type="radio" name="q4" value="b">list:square;</li>
+		<li><input type="radio" name="q4" value="c">list-type:square;</li>
+		<li><input type="radio" name="q4" value="d">list-style-value:square;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q5" data-question="5">
+
+      <ul>
+	  <h3>5.How do you select an element with id 'demo'?</h3>
+	    <li><input type="radio" name="q5" value="a">.demo</li>
+	    <li><input type="radio" name="q5" value="b">demo</li>
+		<li><input type="radio" name="q5" value="c">#demo</li>
+		<li><input type="radio" name="q5" value="d">*demo</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+   <div id="results"></div>
+   </main>
+   <footer>
+   <div class="pull-left">Total: 5 Questions</div>
+
+   </footer>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/cssquiz3.js"></script>
+</body>
+</html>

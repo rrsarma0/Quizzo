@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+ <title>QUIZZO</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styles1.css">
+ </head>
+<body>
+<div class="container">
+   <header>
+
+   <div class="pull-left">HTML5 QUIZ</div>
+   <div class="pull-right">www.quiz.com</div>
+
+   </header>
+   <main>
+   <h2>HARD</h2>
+   <form class="Question-form" id="q1" data-question="1">
+
+      <ul>
+	  <h3>1.What is the correct HTML for making a drop down list?</h3>
+	    <li><input type="radio" name="q1" value="a">&lt;select&gt;</li>
+	    <li><input type="radio" name="q1" value="b">&lt;list&gt;</li>
+		<li><input type="radio" name="q1" value="c">&lt;input type="list"&gt;</li>
+		<li><input type="radio" name="q1" value="d">&lt;input type="dropdown"&gt;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q2" data-question="2">
+
+      <ul>
+	  <h3>2.What is the correct HTML for making a text area?</h3>
+	    <li><input type="radio" name="q2" value="a">&lt;input type="textbox"&gt;</li>
+	    <li><input type="radio" name="q2" value="b">&lt;textarea&gt;</li>
+		<li><input type="radio" name="q2" value="c">&lt;input type="textarea"&gt;</li>
+		<li><input type="radio" name="q2" value="d">&lt;input type="textfield"&gt;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+    <form class="Question-form" id="q3" data-question="3">
+
+      <ul>
+	  <h3>3.In HTML, onblur and onfocus are?</h3>
+	    <li><input type="radio" name="q3" value="a">css attributes</li>
+	    <li><input type="radio" name="q3" value="b">style attributes</li>
+		<li><input type="radio" name="q3" value="c">HTML elements</li>
+		<li><input type="radio" name="q3" value="d">Event attributes</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+
+      <form class="Question-form" id="q4" data-question="4">
+
+      <ul>
+	  <h3>4.Which HTML element is used to specify a footer for a document or section?</h3>
+	    <li><input type="radio" name="q4" value="a">&lt;section&gt;</li>
+	    <li><input type="radio" name="q4" value="b">&lt;footer&gt;</li>
+		<li><input type="radio" name="q4" value="c">&lt;bottom&gt;</li>
+		<li><input type="radio" name="q4" value="d">&lt;aside&gt;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+      <form class="Question-form" id="q5" data-question="5">
+
+      <ul>
+	  <h3>5.What is the correct HTML element for playing video files?</h3>
+	    <li><input type="radio" name="q5" value="a">&lt;video&gt;</li>
+	    <li><input type="radio" name="q5" value="b">&lt;media&gt;</li>
+		<li><input type="radio" name="q5" value="c">&lt;controls&gt;</li>
+		<li><input type="radio" name="q5" value="d">&lt;player&gt;</li>
+	  </ul>
+       <input type="submit" value="Submit">
+   </form>
+   <div id="results"></div>
+   </main>
+   <footer>
+   <div class="pull-left">Total: 5 Questions</div>
+
+   </footer>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/quiz3.js"></script>
+</body>
+</html>
